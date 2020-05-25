@@ -1,0 +1,31 @@
+html {
+    --corfundo: #fffdfd;
+    --letras: black;
+    --lightmode: #e0d9e4;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--corfundo);
+}
+
+.topo {
+    background-color: var(--lightmode);
+}
+
+.buscar {
+    text-align: center;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: var(--lightmode);
+    color: var(--letras);
+    text-align: center;
+    font-size: 12px;
+    font: 1em sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
